@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  transition: 0.25s;
+}
+
+body {
+  background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+.resume {
+  width: 800px;
+  background: #fff;
+  margin: 25px auto;
+  display: flex;
+}
+
+.left {
+  background: #112031;
+  width: 250px;
+  padding: 0 20px;
+}
+
+.right {
+  width: calc(100% - 250px);
+}
+
+.left .img_holder {
+  text-align: center;
+  padding: 20px 0;
+  margin: 10px 0px;
+}
+
+.left .img_holder img {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.pb {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  color: #608291;
+  position: relative;
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.title:before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 50px;
+  height: 3px;
+  background: #608291;
+}
+
+.left .icon {
+  font-size: 20px;
+  color: #608291;
+}
+
+.left .text {
+  color: #fff;
+  font-size: 13px;
+}
+
+.left .skills .text {
+  font-size: 18px;
+}
+
+.contact .list_wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact .list_wrap .icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.contact .list_wrap .text {
+  width: calc(100% - 50px);
+  color: #fff;
+}
+
+.skills .list_wrap .text {
+  margin-top: 5px;
+}
+
+.skills .list_wrap {
+  margin: 20px 0;
+}
+
+.skills-bar {
+  height: 14px;
+  background: #345b63;
+  border-radius: 5px;
+}
+
+.skills-per {
+  margin-top: 15px;
+  height: 14px;
+  background: #d4ecdd;
+  border-radius: 5px;
+}
+
+.header {
+  background: #112031;
+  padding: 25px 30px;
+  color: #fff;
+  height: 245px;
+}
+
+.header .name {
+  margin-top: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #608291;
+}
+
+.header .role {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.header .about {
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.inner {
+  padding: 30px;
+  color: #292b2f;
+}
+
+.inner .edu {
+  margin-top: 5px;
+}
+
+.inner .achiv {
+  margin-top: 40px;
+}
+
+.inner .hobbies_wrap {
+  margin-top: 40px;
+}
+
+.inner .list_wrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.inner .list_wrap .date {
+  width: 125px;
+  color: #22577a;
+}
+
+.inner .list_wrap .info {
+  width: calc(100% - 125px);
+  padding-left: 25px;
+  position: relative;
+}
+
+.inner .list_wrap .info_title {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #22577a;
+}
+
+.inner .list_wrap .info_com {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.inner .list_wrap .info_cont {
+  margin-top: 15px;
+}
+
+.inner .list_wrap .info:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: #22577a;
+  border-radius: 50%;
+}
+
+.inner .edu .list_wrap .info:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 2px;
+  height: 90%;
+  background: #22577a;
+  border-radius: 50%;
+}
+
+.hobbies ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hobbies .list_wrap {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hobbies .list_wrap {
+  border: 2px solid #292b2f;
+}
